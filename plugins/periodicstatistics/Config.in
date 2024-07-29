@@ -1,0 +1,28 @@
+config PACKAGE_periodicstatistics
+    tristate
+    select SAH_AMX_TR181_PERIODIC_STATISTICS
+
+if PACKAGE_periodicstatistics
+
+menu "Select periodicstatistics build options"
+    depends on PACKAGE_periodicstatistics
+
+config SAH_AMX_TR181_PERIODIC_STATISTICS
+    bool "Build the TR-181 periodic statistic implementation"
+    default y
+
+config SAH_AMX_TR181_PERIODIC_STATISTICS_ORDER
+    int "Start up order"
+    default 99
+
+config SAH_AMX_TR181_PERIODIC_STATISTICS_RUN_AS_USER
+    string "User will be used for the tr181-periodicstatistics plugin"
+    default "tr181_app"
+
+config SAH_AMX_TR181_PERIODIC_STATISTICS_RUN_AS_GROUP
+    string "Group will be used for the tr181-periodicstatistics plugin"
+    default "tr181_app"
+
+endmenu
+
+endif
