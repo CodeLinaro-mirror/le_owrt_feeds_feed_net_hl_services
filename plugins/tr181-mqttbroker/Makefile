@@ -1,13 +1,15 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling
+# WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/plugins/tr181-mqttbroker/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=tr181-mqttbroker
-PKG_VERSION:=sah-next_v0.2.0
+PKG_VERSION:=sah-next_v0.2.1
 SHORT_DESCRIPTION:=TR-181 compatible MQTT broker
 
-PKG_SOURCE:=tr181-mqttbroker-sah-next_v0.2.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-mqttbroker/-/archive/sah-next_v0.2.0
-PKG_HASH:=b815f06c7b6bfaf22974b833d6ebddd69047e837834ea7b59d9e2260c0795634
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-mqttbroker-sah-next_v0.2.0
+PKG_SOURCE:=tr181-mqttbroker-sah-next_v0.2.1.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-mqttbroker/-/archive/sah-next_v0.2.1
+PKG_HASH:=8054af58a5d22922a4fbab3e16a59562302088e64d58d71c8be2122dcf84f870
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-mqttbroker-sah-next_v0.2.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -26,7 +28,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   CATEGORY:=prpl Foundation
-  SUBMENU:=TR-181 Managers
+  SUBMENU:=Ambiorix
   TITLE:=$(SHORT_DESCRIPTION)
   URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-mqttbroker
   DEPENDS += +libamxc
