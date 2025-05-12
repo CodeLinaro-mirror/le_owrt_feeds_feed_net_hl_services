@@ -11,9 +11,13 @@ config SAH_AMX_TR181_PERIODIC_STATISTICS
     bool "Build the TR-181 periodic statistic implementation"
     default y
 
-config SAH_AMX_TR181_PERIODIC_STATISTICS_ORDER
-    int "Start up order"
+config SAH_AMX_TR181_PERIODIC_STATISTICS_START_ORDER
+    int "Periodicstatistics start up order"
     default 99
+
+config SAH_AMX_TR181_PERIODIC_STATISTICS_STOP_ORDER
+    string "Periodicstatistics shutdown order"
+    default "01"
 
 config SAH_AMX_TR181_PERIODIC_STATISTICS_RUN_AS_USER
     string "User will be used for the tr181-periodicstatistics plugin"
