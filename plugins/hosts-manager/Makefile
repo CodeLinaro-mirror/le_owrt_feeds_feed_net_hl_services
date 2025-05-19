@@ -8,7 +8,7 @@ SHORT_DESCRIPTION:=Implementation of Device
 
 PKG_SOURCE:=tr181-hosts-sah-next_v0.12.1.tar.gz
 PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-hosts/-/archive/sah-next_v0.12.1
-PKG_HASH:=skip
+PKG_HASH:=2a5421d56ef5fce6e0f6e4adebaf7af1b2abc86a3a4d9dbd18718b66a979f91c
 PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-hosts-sah-next_v0.12.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
