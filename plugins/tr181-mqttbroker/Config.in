@@ -11,9 +11,13 @@ config SAH_AMX_TR181_MQTTBROKER
     bool "TR-181 compatible MQTT broker"
     default y
 
-config SAH_AMX_TR181_MQTTBROKER_ORDER
+config SAH_AMX_TR181_MQTTBROKER_START_ORDER
     int "TR-181 MQTT broker plugin start up order"
     default 49
+
+config SAH_AMX_TR181_MQTTBROKER_STOP_ORDER
+    int "TR-181 MQTT broker plugin shutdown order"
+    default 51
 
 config SAH_AMX_TR181_MQTTBROKER_RUN_AS_USER
     string "User that will be used for the tr181-mqttbroker plugin"
