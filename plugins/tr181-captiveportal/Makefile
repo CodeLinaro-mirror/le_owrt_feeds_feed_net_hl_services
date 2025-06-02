@@ -8,7 +8,7 @@ SHORT_DESCRIPTION:=AMX Captive Portal plugin
 
 PKG_SOURCE:=tr181-captiveportal-sah-next_v0.6.1.tar.gz
 PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-captiveportal/-/archive/sah-next_v0.6.1
-PKG_HASH:=skip
+PKG_HASH:=bb2d970a4a8edd8dccab82148654672b8a8b7d85e8d4a262e92da5ed0d1a06f0
 PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-captiveportal-sah-next_v0.6.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
