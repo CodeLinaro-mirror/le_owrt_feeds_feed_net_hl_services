@@ -15,6 +15,14 @@ config SAH_AMX_TR181_CAPTIVEPORTAL_EXAMPLE
     bool "Install the example captive portal page"
     default y
 
+config SAH_AMX_TR181_CAPTIVEPORTAL_START_ORDER
+    int "Captive protal start up order"
+    default 90
+
+config SAH_AMX_TR181_CAPTIVEPORTAL_STOP_ORDER
+    int "Captive portal shutdown order"
+    default 10
+
 endmenu
 
 endif
