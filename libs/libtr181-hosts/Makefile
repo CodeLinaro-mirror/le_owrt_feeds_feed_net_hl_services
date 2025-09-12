@@ -8,7 +8,7 @@ SHORT_DESCRIPTION:=tr181-hosts client library
 
 PKG_SOURCE:=lib_tr181-hosts-sah-next_v0.2.1.tar.gz
 PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/libraries/lib_tr181-hosts/-/archive/sah-next_v0.2.1
-PKG_HASH:=skip
+PKG_HASH:=6ce9676a00901a737136bbea693a356f63cada26296529673a864c91c424059a
 PKG_BUILD_DIR:=$(BUILD_DIR)/lib_tr181-hosts-sah-next_v0.2.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
