@@ -3,13 +3,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=hosts-manager
-PKG_VERSION:=sah-next_v0.16.0
+PKG_VERSION:=sah-next_v0.16.1
 SHORT_DESCRIPTION:=Implementation of Device
 
-PKG_SOURCE:=tr181-hosts-sah-next_v0.16.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-hosts/-/archive/sah-next_v0.16.0
-PKG_HASH:=6498c1f2049885258ee6c03b8220f86f4e2db18ad2a831d6519c71ba237e9fc2
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-hosts-sah-next_v0.16.0
+PKG_SOURCE:=tr181-hosts-sah-next_v0.16.1.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-hosts/-/archive/sah-next_v0.16.1
+PKG_HASH:=03a1abb6243980798457fd9460225f310c7805ff42cc60b055c0b338d8868a19
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-hosts-sah-next_v0.16.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
