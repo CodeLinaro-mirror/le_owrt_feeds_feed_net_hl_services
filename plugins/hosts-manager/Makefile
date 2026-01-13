@@ -3,13 +3,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=hosts-manager
-PKG_VERSION:=sah-next_v0.21.0
+PKG_VERSION:=sah-next-4.1_v0.1.0
 SHORT_DESCRIPTION:=Implementation of Device
 
-PKG_SOURCE:=tr181-hosts-sah-next_v0.21.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-hosts/-/archive/sah-next_v0.21.0
-PKG_HASH:=df4883b2994d4749976c0324fd0691b205ca105fe6b6c8328319d6695658d02b
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-hosts-sah-next_v0.21.0
+PKG_SOURCE:=tr181-hosts-sah-next-4.1_v0.1.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-hosts/-/archive/sah-next-4.1_v0.1.0
+PKG_HASH:=56ec3789b813d5163ef1a04ba7c0de581901470c2ae09fadc22ff3d93a95d49d
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-hosts-sah-next-4.1_v0.1.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -29,7 +29,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   CATEGORY:=prpl Foundation
-  SUBMENU:=Ambiorix
+  SUBMENU:=TR-181 Managers
   TITLE:=$(SHORT_DESCRIPTION)
   URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-hosts
   DEPENDS += +libamxc
