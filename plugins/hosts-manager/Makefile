@@ -1,16 +1,16 @@
-# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version master)
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.40.6)
 # WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/plugins/tr181-hosts/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=hosts-manager
-RAW_VERSION:=sah-next-4.2_v0.4.0
+RAW_VERSION:=sah-next-4.2_v0.5.0
 PKG_VERSION:=$(if $(filter v0% v1% v2% v3% v4% v5% v6% v7% v8% v9%,$(RAW_VERSION)),$(patsubst v%,%,$(RAW_VERSION)),$(RAW_VERSION))
 SHORT_DESCRIPTION:=Implementation of Device
 
-PKG_SOURCE:=tr181-hosts-sah-next-4.2_v0.4.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-hosts/-/archive/sah-next-4.2_v0.4.0
-PKG_HASH:=e0dec7fde646f964073a26e3754d02eba7ea417e82c90067f860682f52cc5783
-PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-hosts-sah-next-4.2_v0.4.0
+PKG_SOURCE:=tr181-hosts-sah-next-4.2_v0.5.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/core/plugins/tr181-hosts/-/archive/sah-next-4.2_v0.5.0
+PKG_HASH:=de4329c6151cc961c521f5011fc5453ce90f4e1ea7f9cd46e884a293c007c1e7
+PKG_BUILD_DIR:=$(BUILD_DIR)/tr181-hosts-sah-next-4.2_v0.5.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
