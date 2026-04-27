@@ -1,14 +1,14 @@
-# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.39.3)
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version v2.39.3)
 # WARNING: You should contribute changes to https://gitlab.softathome.com/ext_prpl/components/periodicstatistics/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 -include $(STAGING_DIR)/components.config
 
 PKG_NAME:=periodicstatistics
-PKG_VERSION:=v0.9.0
+PKG_VERSION:=sah-next-4.1-lts_v0.9.0
 SHORT_DESCRIPTION:=Implementation of Device
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_VERSION:=v0.9.0
+PKG_SOURCE_VERSION:=sah-next-4.1-lts_v0.9.0
 PKG_SOURCE_URL:=https://$(SAH_GIT_USER):$(SAH_GIT_TOKEN)@$(SAH_GIT)/$(SAH_GIT_GROUP)/periodicstatistics.git
 PKG_MIRROR_HASH:=skip
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
