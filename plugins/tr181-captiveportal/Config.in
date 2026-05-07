@@ -1,3 +1,5 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version master)
+# WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/core/plugins/tr181-captiveportal/-/blob/main/baf.yml instead
 config PACKAGE_tr181-captiveportal
     tristate
     select SAH_AMX_TR181_CAPTIVEPORTAL
@@ -16,11 +18,11 @@ config SAH_AMX_TR181_CAPTIVEPORTAL_EXAMPLE
     default y
 
 config SAH_AMX_TR181_CAPTIVEPORTAL_START_ORDER
-    int "Captive protal start up order"
+    int "Init start up order for the the AMX Captive Portal plugin"
     default 90
 
 config SAH_AMX_TR181_CAPTIVEPORTAL_STOP_ORDER
-    int "Captive portal shutdown order"
+    int "Init stop order for the AMX Captive Portal plugin"
     default 10
 
 endmenu
